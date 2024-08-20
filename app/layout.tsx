@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Tajawal } from "next/font/google";
 import "./globals.css";
+import ReactQueryProvider from "@/ReactQueryProvider";
 
 const Tajawal_font = Tajawal({
   subsets: ["latin"],
@@ -19,10 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-
-      <html lang="ar" dir="rtl">
+<ReactQueryProvider>
+<html lang="ar" dir="rtl">
         <body className={Tajawal_font.className}>{children}</body>
       </html>
+</ReactQueryProvider>
+    
 
   );
 }
