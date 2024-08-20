@@ -15,4 +15,19 @@ export const team = [
     title: "ابراهيم ",
     img: jwdat,
   },
+  {
+    id: 1,
+    title: "ابراهيم ",
+    img: jwdat,
+  },
+  {
+    id: 1,
+    title: "ابراهيم ",
+    img: jwdat,
+  },
+  {
+    id: 1,
+    title: "ابراهيم ",
+    img: jwdat,
+  },
 ];

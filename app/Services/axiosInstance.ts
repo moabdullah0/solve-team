@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 const axiosInstance = axios.create({
-  baseURL: "https://mmdeeb0-001-site1.dtempurl.com/",
+  baseURL: "http://solve.wuaze.com/",
   headers: {
     Accept: "application/json",
   },
